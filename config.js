@@ -8,17 +8,17 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['212669512443', '🐉 𝐾𝑈𝑅𝛩𝑺𝐴𝐾𝐼 🐍', true],
-  ['212722121256', '🐉 𝐾𝑈𝑅𝛩𝑺𝐴𝐾𝐼 🐍', true]
+  ['967773685143', ' 𝑨𝑹𝑻𝑯𝑼𝑹..🖤', true],
+  ['967773685143', ' 𝑨𝑹𝑻𝑯𝑼𝑹..🖤', true]
 ];
 // يمكنك تغير البرمجه من هنا كل ما عليك هوا تغير الاصفر مثل '✆⏐' تحط الزخرفه الخاصه بك مثل '★|•' هكذا 
-global.accc = '𝐾𝑈𝑅𝛩𝑺𝐴𝐾𝐼';
-global.avvv = '✆⏐';
-global.suittag = ['201554582851', '201033024135'];
-global.prems = ['201554582851', '201033024135'];
+global.accc = '𝑨𝑹𝑻𝑯𝑼𝑹';
+global.avvv = '✆ 967773685143';
+global.suittag = ['967773685143', '967773685143'];
+global.prems = ['967773685143', '967773685143'];
 
-global.anabro = "𝐾𝑈𝑅𝛩𝑺𝐴𝐾𝐼";
-global.veeeee = " 🐉 𝐾𝑈𝑅𝛩𝑺𝐴𝐾𝐼 🐍\n✆ +212669512443 ♕";
+global.anabro = "𝑨𝑹𝑻𝑯𝑼𝑹";
+global.veeeee = "  𝑨𝑹𝑻𝑯𝑼𝑹..🖤 \n✆ 967773685143 ♕";
 global.veeee = "حط حقوقك";
 global.packname = 'حط حقوقك';
 global.author = 'حط حقوقك';
@@ -46,15 +46,15 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ حط حقوقك`;
-global.gt = 'حط حقوقك';
-global.mysticbot = 'حط حقوقك';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝑨𝑹𝑻𝑯𝑼𝑹`;
+global.gt = '𝑨𝑹𝑻𝑯𝑼𝑹';
+global.mysticbot = '𝑨𝑹𝑻𝑯𝑼𝑹';
 global.md = 'https://atom.bio/kurosaki_mah';
 global.mysticbot = 'https://atom.bio/kurosaki_mah';
 global.waitt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 global.waittt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 global.waitttt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
-global.nomorown = '212669512443';
+global.nomorown = '967773685143';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
