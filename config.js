@@ -19,13 +19,13 @@ global.prems = ['967773685143', '967773685143'];
 
 global.anabro = "𝑨𝑹𝑻𝑯𝑼𝑹";
 global.veeeee = "  𝑨𝑹𝑻𝑯𝑼𝑹..🖤 \n✆ 967773685143 ♕";
-global.veeee = "حط حقوقك";
-global.packname = 'حط حقوقك';
-global.author = 'حط حقوقك';
-global.wm = 'حط حقوقك';
-global.titulowm = 'حط حقوقك';
-global.titulowm2 = `حط حقوقك`
-global.igfg = 'حط حقوقك';
+global.veeee = "𝑨𝑹𝑻𝑯𝑼𝑹";
+global.packname = '𝑨𝑹𝑻𝑯𝑼𝑹';
+global.author = '𝑨𝑹𝑻𝑯𝑼𝑹';
+global.wm = '𝑨𝑹𝑻𝑯𝑼𝑹';
+global.titulowm = '𝑨𝑹𝑻𝑯𝑼𝑹';
+global.titulowm2 = `𝑨𝑹𝑻𝑯𝑼𝑹`
+global.igfg = '𝑨𝑹𝑻𝑯𝑼𝑹';
 global.wait = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
