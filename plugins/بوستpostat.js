@@ -3,7 +3,7 @@ conn.reply(m.chat,`*『${pickRandom(global.Posts)}』*`, m)
 }
 handler.help = ['bzmzjdks']
 handler.tags = ['fun']
-handler.command = /بوست|بوستات/i
+handler.command = /اقتباس|بوستات/i
 export default handler
 
 function pickRandom(list) {
