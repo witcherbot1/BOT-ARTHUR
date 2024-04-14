@@ -1,8 +1,8 @@
 let handler = async (m, { conn, text}) => {
 m.reply(`"${pickRandom(global.piropos)}"`)
 }
-handler.tags = ['قران']
-handler.command = ['ايات','قران']
+handler.tags = ['ايه']
+handler.command = ['ايات','اييه]
  export default handler
     
  function pickRandom(list) {
