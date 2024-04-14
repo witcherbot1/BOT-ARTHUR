@@ -10,15 +10,15 @@ let handler = async (m, {conn, text }) => {
     switch (v.type) {
       case 'video': return `
 ° *_${v.title}_*
-↳ 🫐 *_الرابط :_* ${v.url}
-↳ 🕒 *_الوقت :_* ${v.timestamp}
-↳ 📥 *_اصدر في :_* ${v.ago}
-↳ 👁 *_المشاهدات :_* ${v.views}`}}).filter(v => v).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n')
+✦┇ 🫐 *_الرابط :_* ${v.url}
+✦┇ 🕒 *_الوقت :_* ${v.timestamp}
+✦┇ 📥 *_اصدر في :_* ${v.ago}
+✦┇ 👁 *_المشاهدات :_* ${v.views}`}}).filter(v => v).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n')
   conn.sendFile(m.chat, tes[0].thumbnail, 'yts.jpeg', teks, m)
 }
 handler.help = ['ytsearch *<texto>*'] 
 handler.tags = ['search']
-handler.command = ['يوتيوبس', 'بحثيوت'] 
+handler.command = ['يوتيوب', 'بحثيوت'] 
 
 
 export default handler
