@@ -16,8 +16,8 @@ async function handler(m, { conn, args, usedPrefix, command }) {
     if (!item.includes(type)) return conn.reply(m.chat, lol, m, { mentions: [m.sender] })
     const count = Math.min(Number.MAX_SAFE_INTEGER, Math.max(1, (isNumber(args[1]) ? parseInt(args[1]) : 1))) * 1
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : args[2] ? (args[2].replace(/[@ .+-]/g, '') + '@s.whatsapp.net') : ''
-    if (!who) return m.reply('✳️ ضع علامة على المستخدم')
-    if (!(who in global.db.data.users)) return m.reply(`✳️ المستخدم ليس في قاعدة البيانات الخاصة بي`)
+    if (!who) return m.reply('✦ ضع علامة على المستخدم')
+    if (!(who in global.db.data.users)) return m.reply(`✦┇ المستخدم ليس في قاعدة البيانات الخاصة بي┇✦`)
     if (user[type] * 1 < count) return m.reply(`✳️  *${type}*  غير كافية للنقل`)
     let confirm = `
     هل أنت متأكد أنك تريد النقل *₹${count}* to *@${(who || '').replace(/@s\.whatsapp\.net/g, '')}* ? 
