@@ -3,9 +3,9 @@ conn.reply(m.chat,`*✦━━━✤━ –⊰ ❖ ⊱– ━✤━━━✦
 *\n\n✦┃💗${pickRandom(global.verdaad)}"✦┃\n\n*✦━━━✤━ –⊰ ❖ ⊱– ━✤━━━✦*
 `, m)
 }
-handler.help = ['تاج']
+handler.help = ['كاج']
 handler.tags = ['fun']
-handler.command = /^تاج/i
+handler.command = /^كاج/i
 export default handler
 function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]
