@@ -13,12 +13,12 @@ global.owner = [
 ];
 // يمكنك تغير البرمجه من هنا كل ما عليك هوا تغير الاصفر مثل '✆⏐' تحط الزخرفه الخاصه بك مثل '★|•' هكذا 
 global.accc = '𝑨𝑹𝑻𝑯𝑼𝑹';
-global.avvv = '✆ 967773685143';
+global.avvv = '✦ 967773685143';
 global.suittag = ['967773685143', '967773685143'];
 global.prems = ['967773685143', '967773685143'];
 
 global.anabro = "𝑨𝑹𝑻𝑯𝑼𝑹";
-global.veeeee = "  𝑨𝑹𝑻𝑯𝑼𝑹..🖤 \n✆ 967773685143 ♕";
+global.veeeee = "  𝑨𝑹𝑻𝑯𝑼𝑹..🖤 \n✦ 967773685143 ✦";
 global.veeee = "𝑨𝑹𝑻𝑯𝑼𝑹";
 global.packname = '𝑨𝑹𝑻𝑯𝑼𝑹';
 global.author = '𝑨𝑹𝑻𝑯𝑼𝑹';
