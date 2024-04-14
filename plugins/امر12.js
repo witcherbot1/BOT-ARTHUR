@@ -19,7 +19,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let videoUrl = 'https://telegra.ph/file/3ce3f3a96e76b34a6d94e.jpg';
+let videoUrl = 'https://telegra.ph/file/56034655fe12b9fa53a9d.jpg';
   let vn = './media/menu.mp3';
   const user = global.db.data.users[m.sender];
   const {money, joincount} = global.db.data.users[m.sender];
@@ -52,6 +52,7 @@ let str = `
 *❯ ┇.انذار 』*
 *❯ ┇.تغيير_اللينك 』*
 *❯ ┇.دعوه 』*
+*❯ ┇.المبندين 』*
 *❯ ┇.احذف 』*
 *❯ ┇.الاشباح 』*
 *❯ ┇.ترقية 』*
@@ -63,6 +64,7 @@ let str = `
 ✦━━━━━━━ •➢• ━━━━━━━✦
 *❯ ┇.حظي』*
 *❯ ┇.نصيحه 』*
+*❯ ┇.اقتباس 』*
 *❯ ┇.شخصية』*
 *❯ ┇.منشني 』*
 *❯ ┇.ترجم 』*
@@ -75,6 +77,7 @@ let str = `
 *❯ ┇.خط 』*
 *❯ ┇.انطق 』*
 *❯ ┇.مانجا 』*
+*❯ ┇.اسئلني 』*
 *❯ ┇.مانهوا 』*
 *❯ ┇باركود 』*
 *❯ ┇.لكرتون 』*
@@ -95,6 +98,7 @@ let str = `
 *❯ ┇.تاج 』*
 *❯ ┇.نرد 』*
 *❯ ┇.شبيهي 』*
+*❯ ┇ بوت』*
 *❯ ┇.توب 』*
 *❯ ┇ كت 』*
 *❯ ┇ تج 』*
@@ -102,6 +106,7 @@ let str = `
 *❯ ┇.دين 』*
 *❯ ┇.سؤال 』*
 *❯ ┇.زخرفه 』*
+*❯ ┇.هكر 』*
 *❯ ┇.غباء 』*
 *❯ ┇.خروف 』*
 *❯ ┇.جميل』*
@@ -117,7 +122,10 @@ let str = `
 ✦━━━━━━━ •➢• ━━━━━━━✦
 *❯ ┇.تيك』*
 *❯ ┇.باراديس 』*
+*❯ ┇.فريبيك 』*
 *❯ ┇.فلسطين 』*
+*❯ ┇.جوده 』*
+*❯ ┇.ايديت2』*
 *❯ ┇.فيسبوك 』*
 *❯ ┇.انستا』*
 *❯ ┇.صوره』*
@@ -228,7 +236,7 @@ conn.sendMessage(m.chat, {
 }; 
 handler.help = ['main']
 handler.tags = ['ggsy']
-handler.command = ['12امر'] 
+handler.command = ['امر12'] 
 
 export default handler
 function clockString(ms) {
