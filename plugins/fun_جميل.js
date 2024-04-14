@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
-    if (!text) throw "*مـنـشـن الــشـخص الـذي تـريـد مـعـرفة نـسـبـة جــمـالـه !*"
+    if (!text) throw "*✦┇مـنـشـن الــشـخص الـذي تـريـد مـعـرفة نـسـبـة جــمـالـه ┇✦*"
     const mentionedUser = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : args[2] ? (args[2].replace(/[@ .+-]/g, '') + '@s.whatsapp.net') : ''
  const userChar = [
      "1%",
@@ -106,7 +106,7 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
     const userCharacterSeletion =
       userChar[Math.floor(Math.random() * userChar.length)]
 
-    let message = `*@${mentionedUser.split("@")[0]} انــه جـمــيل بـنـسـبــة ${userCharacterSeletion}*`
+    let message = `*✦┇@${mentionedUser.split("@")[0]} انــه جـمــيل بـنـسـبــة ${userCharacterSeletion}┇✓*`
     
     conn.sendMessage(m.chat, { text: message, mentions: [mentionedUser] }, { quoted: m })
     
