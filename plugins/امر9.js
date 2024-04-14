@@ -19,7 +19,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let videoUrl = 'https://telegra.ph/file/56034655fe12b9fa53a9d.jpg';
+let videoUrl = 'https://telegra.ph/file/26c84fe087c171d4641c3.mp4';
   let vn = './media/menu.mp3';
   const user = global.db.data.users[m.sender];
   const {money, joincount} = global.db.data.users[m.sender];
@@ -41,13 +41,14 @@ let str = `
 〄┃اوامـر دين +اسئلة┃ ↞ ❮⏳❯
 *✦━✤━ •⊰❖⊱• ━✤━✦*
 *❯ ┇.قرآن 』*
-*❯ ┇.دين』*
+*❯ ┇.دين 』*
 *❯ ┇.آيه 』*
 *❯ ┇.سورة 』*
 *❯ ┇.سؤال 』*
 *❯ ┇.اسئلني』*
-*❯ ┇.اذكار 』*
-*❯ ┇.آيات』*
+*❯ ┇.اذكار المساء 』*
+*❯ ┇.اذكار الصباح 』*
+*❯ ┇.آيات 』*
 *✦━✤━ •⊰❖⊱• ━✤━✦*
 ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁
 *⎔•┗╼╼╼╼╃⊰💧⊱╄╼╼╼╾┛•⎔*
