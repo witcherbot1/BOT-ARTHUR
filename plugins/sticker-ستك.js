@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import { sticker, addExif } from '../lib/sticker.js'
 import { Sticker } from 'wa-sticker-formatter'
 let handler = async(m, { conn, text, args, usedPrefix, command }) => {
-if (!text) throw `*اكــتب الـشـيء الـذي تـريـد تـحـويـله !*\n*مـــثال: ${usedPrefix + command} luffy*`
+if (!text) throw `*✦┇اكــتب الـشـيء الـذي تـريـد تـحـويـله !*\n*مـــثال: ${usedPrefix + command} Arthur┇✦*`
 let teks = encodeURI(text)
 
 if (command == 'ستك') {
@@ -10,13 +10,13 @@ let a1 = await (await fetch(`https://api.erdwpe.com/api/maker/attp?text=${teks}`
 let a2 = await createSticker(a1, false, global.packname, global.author)
 conn.sendFile(m.chat, a2, 'sticker.webp', '', m, { asSticker: true })}
 
-if (command == 'ستكك') {
+if (command == 'ستك2') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/attp?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
-if (command == 'ستككك') {
+if (command == 'ستك3') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/attp2?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
 
-if (command == 'ستكككك') {
+if (command == 'ستك4') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp6?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
 if (command == 'ستك5') {
@@ -32,7 +32,7 @@ if (command == 'ستك8') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
 }
-handler.command = handler.help = ['ستك', 'ستكك', 'ستككك', 'ستكككك', 'ستك5', 'ستك6', 'ستك7', 'ستك8']
+handler.command = handler.help = ['ستك', 'ستك2', 'ستك3', 'ستك4', 'ستك5', 'ستك6', 'ستك7', 'ستك8']
 handler.tags = ['sticker']
 export default handler
 
