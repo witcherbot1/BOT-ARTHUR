@@ -35,9 +35,20 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(900) 
   const taguser = '@' +  m.sender.split('@s.whatsapp.net')[0];
 let str = ` 
+*⎔•┗╼╼╼╃✦⊰💧⊱✦╄╼╾╼┛•⎔*
 
  *❐↞『نورت ${taguser}』*
-
+〄┃اوامـر دين +اسئلة┃ ↞ ❮⏳❯
+*✦━✤━ •⊰❖⊱• ━✤━✦*
+*❯ ┇قرآن 』*
+*❯ ┇.دين』*
+*❯ ┇.آيه 』*
+*❯ ┇.سؤال 』*
+*❯ ┇.اذكار 』*
+*❯ ┇. آيات』*
+*✦━✤━ •⊰❖⊱• ━✤━✦*
+❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁
+*⎔•┗╼╼╼╼╃⊰💧⊱╄╼╼╼╾┛•⎔*
 `.trim();
 
 conn.sendMessage(m.chat, {
@@ -48,7 +59,7 @@ conn.sendMessage(m.chat, {
 }; 
 handler.help = ['main']
 handler.tags = ['ggsy']
-handler.command = ['امر'] 
+handler.command = ['9امر'] 
 
 export default handler
 function clockString(ms) {
