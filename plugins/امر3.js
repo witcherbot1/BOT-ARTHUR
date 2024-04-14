@@ -2,7 +2,7 @@ import { createHash } from 'crypto'
 import { canLevelUp, xpRange } from '../lib/levelling.js'
 import fetch from 'node-fetch'
 import fs from 'fs'
-const { levelling } = '../lib/levelling.js'
+const { levelling } = '.https://github.com/12345eren/BOT-nnnnn/tree/main/plugins./lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
@@ -19,7 +19,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let videoUrl = 'https://telegra.ph/file/3ce3f3a96e76b34a6d94e.jpg';
+let videoUrl = 'https://telegra.ph/file/56034655fe12b9fa53a9d.jpg';
   let vn = './media/menu.mp3';
   const user = global.db.data.users[m.sender];
   const {money, joincount} = global.db.data.users[m.sender];
