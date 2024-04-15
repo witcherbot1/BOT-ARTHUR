@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `*EXAMPLE USAGE ${usedPrefix + command} Naruto*`;
+  if (!text) throw `*❖┇مثال للاستخدام.خلفية ${usedPrefix + command} ناروتو┇❖*`;
 
   const apiUrl = `https://weeb-api.vercel.app/wallpaper?query=${encodeURIComponent(text)}`;
 
@@ -51,8 +51,8 @@ function getRandomIndexes(max, count) {
   return indexes;
 }
 
-handler.help = [''].map(v => 'wallpaper' + v + ' <query>');
-handler.tags = ['downloader'];
+handler.help = ['خلفية'].map(v => 'wallpaper' + v + ' <query>');
+handler.tags = ['خلفيه'];
 handler.command = /^(wall|wallpaper)$/i
 
 export default handler;
