@@ -29,7 +29,7 @@ try {
 }  
 handler.help = ['tiktok']
 handler.tags = ['dl']
-handler.command = /^(tiktok|تيكتوك|تيك|tiktoknowm)$/i
+handler.command = /^(ttiktok|تيكتوك2|تيك|ttt)$/i
 handler.diamond = false
 
 export default handler
