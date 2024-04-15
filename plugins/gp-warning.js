@@ -11,10 +11,10 @@ const handler = async (m, {conn, text, command, usedPrefix}) => {
   } else who = m.chat;
   const user = global.db.data.users[who];
   const bot = global.db.data.settings[conn.user.jid] || {};
-  const dReason = 'بدون سبب┇〄';
+  const dReason = 'بدون سبب┇〄*';
   const msgtext = text || dReason;
   const sdms = msgtext.replace(/@\d+-?\d* /g, '');
-  const warntext = `*[❗] قم بالرد علي الرساله او منشن المستخدم مع ذكر السبب*\n\n*✓ مثال┇✦*\n*${
+  const warntext = `*[❗] قم بالرد علي الرساله او منشن المستخدم مع ذكر السبب*\n\n*✦┇مثال✓*\n*${
     usedPrefix + command
   } @${global.suittag}*`;
   if (!who) {
@@ -23,8 +23,8 @@ const handler = async (m, {conn, text, command, usedPrefix}) => {
   user.warn += 1;
   await m.reply(
       `${
-      user.warn == 1 ? `*@${who.split`@`[0]}*` : `✦┇*@${who.split`@`[0]}*┇✦`
-      }〄┇تلقي تحذيرا في هذه المجموعه!┇〄\n 〄┇السبب↞ ${sdms}\n*〄┇التحزيرات ${
+      user.warn == 1 ? `*✦┇@${who.split`@`[0]}*` : `*✦┇@${who.split`@`[0]}┇✦*`
+      }✦┇تلقي تحذيرا في هذه المجموعه!\n *〄┇السبب❗️ ↞ ${sdms}\n*〄┇التحزيرات🔖 ↞ ${
         user.warn
       }/3*┇〄`,
       null,
