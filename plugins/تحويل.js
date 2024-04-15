@@ -3,7 +3,7 @@ const items = ['credit', 'exp']
 let confirmation = {}
 
 async function handler(m, { conn, args, usedPrefix, command }) {
-    if (confirmation[m.sender]) return m.reply('أنت تقوم بالتحويل')
+    if (confirmation[m.sender]) return m.reply(' *↞أنت تقوم بالتحويل┊┃🎖┃*')
     let user = global.db.data.users[m.sender]
     const item = items.filter(v => v in user && typeof user[v] == 'number')
     let lol = `✳️ Correct use of the command 
@@ -49,18 +49,18 @@ handler.before = async m => {
     if (/no?/g.test(m.text.toLowerCase())) {
         clearTimeout(timeout)
         delete confirmation[sender]
-        return m.reply('✅ تم إلغاء النقل')
+        return m.reply('✓ تم إلغاء النقل┊┃⏱️┃')
     }
     if (/yes?/g.test(m.text.toLowerCase())) {
         let previous = user[type] * 1
         let _previous = _user[type] * 1
         user[type] -= count * 1
         _user[type] += count * 1
-        if (previous > user[type] * 1 && _previous < _user[type] * 1) m.reply(`عملية ناجحة ✅ \n\n*₹${count}* تم نقله الى @${(to || '').replace(/@s\.whatsapp\.net/g, '')}`, null, { mentions: [to] })
+        if (previous > user[type] * 1 && _previous < _user[type] * 1) m.reply(`عملية ناجحة ✓ \n\n*₹${count}* تم نقله الى @${(to || '').replace(/@s\.whatsapp\.net/g, '')}`, null, { mentions: [to] })
         else {
             user[type] = previous
             _user[type] = _previous
-            m.reply(`❎ فشل النقل *${count}* ${type} a *@${(to || '').replace(/@s\.whatsapp\.net/g, '')}*`, null, { mentions: [to] })
+            m.reply(`⁉️ فشل النقل *${count}* ${type} a *@${(to || '').replace(/@s\.whatsapp\.net/g, '')}*`, null, { mentions: [to] })
         }
         clearTimeout(timeout)
         delete confirmation[sender]
