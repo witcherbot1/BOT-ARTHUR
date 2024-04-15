@@ -7,7 +7,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (new Date() * 1 < global.db.data.chats[who].expired) global.db.data.chats[who].expired = false
     else global.db.data.chats[who].expired = false
     
-    m.reply(`✅ تمت إزالة أيام انتهاء الصلاحية لهذه المجموعة`) 
+    m.reply(`*❮⚡️┇ تمت إزالة أيام انتهاء الصلاحية لهذه المجموعة❯*`) 
         
 }
 handler.help = ['delexpired']
