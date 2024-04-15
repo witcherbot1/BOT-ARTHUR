@@ -1,8 +1,9 @@
+
 import fg from 'api-dylux' 
 import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
 
 let handler = async (m, { conn, text, args, usedPrefix, command}) => {
-if (!args[0]) throw ` أين هو رابط فيديو التكتوك الذي تود تحميله\n\n 📌 مثال : \n${usedPrefix + command} https://vm.tiktok.com/ZMqysVD/?k=1`
+if (!args[0]) throw ` أين هو رابط فيديو التكتوك الذي تود تحميله\n\n 📌 مثال : \n${usedPrefix + command} https://vm.tiktok.com/ZMNqyusVD/?k=1`
 if (!args[0].match(/tiktok/gi)) throw `❎ verify that the link is from tiktok`
 
 try {
@@ -29,7 +30,7 @@ try {
 }  
 handler.help = ['tiktok']
 handler.tags = ['dl']
-handler.command = /^(tiktok|تيكتوك|تيك|tiktoknowm)$/i
+handler.command = /^(ttiktok|تيكتتوك|تييك|tiktoknowm)$/i
 handler.diamond = false
 
 export default handler
