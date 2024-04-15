@@ -1,9 +1,9 @@
 let handler = async (m, { conn }) => {
 conn.reply(m.chat,`**\n\n*“${pickRandom(global.verdaad)}”*\n\n**`, m)
 }
-handler.help = ['ايموجي']
-handler.tags = ['fun']
-handler.command = /^ايموجي/i
+handler.help = ['ايموج']
+handler.tags = ['fudn']
+handler.command = /^ايموج/i
 export default handler
 function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]
