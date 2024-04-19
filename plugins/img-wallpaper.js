@@ -51,8 +51,8 @@ function getRandomIndexes(max, count) {
   return indexes;
 }
 
-handler.help = ['خلفية'].map(v => 'wallpaper' + v + ' <query>');
-handler.tags = ['خلفيه'];
+handler.help = ['خلفيه'].map(v => 'wallpaper' + v + ' <query>');
+handler.tags = ['خلغية'];
 handler.command = /^(wall|wallpaper)$/i
 
 export default handler;
