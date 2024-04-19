@@ -19,7 +19,7 @@ let handler = async (m, {conn, text }) => {
 }
 handler.help = ['ytsearch *<texto>*'] 
 handler.tags = ['search']
-handler.command = ['بحث', 'البحث'] 
+handler.command = ['ابحث', 'البحث'] 
 
 
 export default handler
