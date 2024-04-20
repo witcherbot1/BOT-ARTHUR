@@ -2,9 +2,9 @@ let handler = async (m, { conn }) => {
     let user = global.db.data.users[m.sender];
     let name = conn.getName(m.sender);
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
-    let message = `*✦┇ اهـليـن فـيـك للمـساعـدة اكــتب الـاوامـر ┇✓*`;
+    let message = `*✦┇  اهـليـن للمـساعـدة اكــتب الـاوامـر او تـضيف البـوت اكتـب المـطور ┇✓*`;
 
-    conn.sendFile(m.chat, 'https://telegra.ph/file/c8ab48a3b01559cc5f27e.jpg', 'image.jpg', message, m);
+    conn.sendFile(m.chat, 'https://telegra.ph/file/48d5818432463d9e3f2bd.jpg', 'image.jpg', message, m);
 };
 
 handler.customPrefix = /^(bot|بوت)$/i;
