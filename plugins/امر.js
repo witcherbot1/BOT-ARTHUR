@@ -70,7 +70,7 @@ conn.sendMessage(m.chat, {
 }; 
 handler.help = ['amrr']
 handler.tags = ['awamr']
-handler.command = ['امر'] 
+handler.command = ['امر1'] 
 
 export default handler
 function clockString(ms) {
