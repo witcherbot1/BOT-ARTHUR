@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
     let message = `*✦┇  اهـليـن للمـساعـدة اكــتب الـاوامـر او تـضيف البـوت اكتـب المـطور ┇✓*`;
 
-    conn.sendFile(m.chat, 'https://telegra.ph/file/48d5818432463d9e3f2bd.jpg', 'image.jpg', message, m);
+    conn.sendFile(m.chat, 'https://telegra.ph/file/e4fb5b98cb6ab7255c722.jpg', 'image.jpg', message, m);
 };
 
 handler.customPrefix = /^(bot|بوت)$/i;
