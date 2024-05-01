@@ -7,9 +7,9 @@ let handler = m => m;
 
    let chat = global.db.data.chats[m.chat]; 
    let responses; 
-   if (/^هلا$/i.test(m.text)) { 
+   if (/^هلا|اهلين|جيت$/i.test(m.text)) { 
      responses = [ 
- '*ارحب*'  
+ '*نورت*'  
      ]; 
 } else if (/^السلام عليكم|سلام عليكم ورحمه الله وبركاته|سلام عليكم|السلام عليكم ورحمه الله وبركاته$/i.test(m.text)) { 
      responses = [ 
