@@ -84,7 +84,7 @@ conn.sendMessage(m.chat, {
 }; 
 handler.help = ['المهام']
 handler.tags = ['اوامر']
-handler.command = ['اوامر|الاوامر'] 
+handler.command = ['الاوامر'] 
 
 export default handler
 function clockString(ms) {
