@@ -50,6 +50,6 @@ ${String.fromCharCode(8206).repeat(850)}
 
 handler.help = ['horario']
 handler.tags = ['info']
-handler.command = /^(التوقيت)$/i
+handler.command = /^(الوقت|التوقيت)$/i
 
 export default handler
