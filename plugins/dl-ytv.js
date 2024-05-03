@@ -65,9 +65,9 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   }
 };
 
-handler.help = ['ytmp4 <yt-link>'];
-handler.tags = ['فيديو'];
-handler.command = ['video'];
+handler.help = ['افيد'];
+handler.tags = ['video];
+handler.command = ['افيد'];
 handler.diamond = false;
 
 export default handler;
