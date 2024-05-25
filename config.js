@@ -23,7 +23,6 @@ global.veeee = "𝑨𝑹𝑻𝑯𝑼𝑹";
 global.packname = '𝑨𝑹𝑻𝑯𝑼𝑹';
 global.author = '𝑨𝑹𝑻𝑯𝑼𝑹';
 global.wm = '𝑨𝑹𝑻𝑯𝑼𝑹';
-global.vs = 'V2 • 1.0.5':
 global.titulowm = '𝑨𝑹𝑻𝑯𝑼𝑹';
 global.titulowm2 = `𝑨𝑹𝑻𝑯𝑼𝑹`
 global.igfg = '𝑨𝑹𝑻𝑯𝑼𝑹';
