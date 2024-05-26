@@ -1,4 +1,6 @@
+*كود جديد ,* الفكرة جدا بسيط وهي أن اذا في أحد من جهاتك نزل ستوري واتس آب يروح البوت يرسله على رقمك مباشرة بشكل تلقائي , طبعا أكيد لازم الشخص يكون مسجل رقم بوتك وانت مسجلة عندك وبس هذه فائدة الكود هذا .
 
+*code:*
 ```
 export async function before(m, { conn, chatUpdate }) {
   const number = 'YOUR_NUMBER_PHONE' // Input example: 9689411xxxx
@@ -18,3 +20,4 @@ export async function before(m, { conn, chatUpdate }) {
 };
 ```
 
+> dark man
