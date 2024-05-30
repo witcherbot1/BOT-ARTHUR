@@ -1,7 +1,4 @@
-*كود جديد ,* الفكرة جدا بسيط وهي أن اذا في أحد من جهاتك نزل ستوري واتس آب يروح البوت يرسله على رقمك مباشرة بشكل تلقائي , طبعا أكيد لازم الشخص يكون مسجل رقم بوتك وانت مسجلة عندك وبس هذه فائدة الكود هذا .
 
-*code:*
-```
 export async function before(m, { conn, chatUpdate }) {
   const number = 'YOUR_NUMBER_PHONE' // Input example: 9689411xxxx
   try {
@@ -18,6 +15,6 @@ export async function before(m, { conn, chatUpdate }) {
     } else { await conn.reply(`${number}@s.whatsapp.net`, caption, m) }
   } catch (error) { await conn.reply(`${number}@s.whatsapp.net`, `Error: ${error}`, m) }
 };
-```
 
-> dark man
+
+
